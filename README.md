@@ -1,2 +1,0 @@
-# elcodigotravieso.github.io
-web
