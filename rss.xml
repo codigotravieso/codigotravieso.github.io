@@ -1,4 +1,77 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Un blog de enseñanza.]]></description><link>https://elcodigotravieso.com.es</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 12 Oct 2022 08:54:12 GMT</lastBuildDate><item><title><![CDATA[Bienvenidxs a "El Código Travieso"]]></title><description><![CDATA[Bievenidxs a “El Código Travieso”, un espacio donde aprender y disfrutar del mundo del desarrollo de páginas web. Soy Borja Jiménez, y seré…]]></description><link>https://elcodigotravieso.com.es/bienvenidxs-a-el-codigo-travieso/</link><guid isPermaLink="false">https://elcodigotravieso.com.es/bienvenidxs-a-el-codigo-travieso/</guid><pubDate>Sun, 09 Oct 2022 13:05:03 GMT</pubDate><content:encoded>&lt;p&gt;Bievenidxs a &lt;strong&gt;“El Código Travieso”&lt;/strong&gt;, un espacio donde aprender y disfrutar del mundo del desarrollo de páginas web.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Un blog de enseñanza.]]></description><link>https://elcodigotravieso.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 14 Oct 2022 23:11:37 GMT</lastBuildDate><item><title><![CDATA[¿Qué es una Variable en PHP?]]></title><description><![CDATA[Las variables se utilizan para almacenar datos, como cadenas de texto, números, etc. Los valores de las variables pueden cambiar en el…]]></description><link>https://elcodigotravieso.com/variables-php/</link><guid isPermaLink="false">https://elcodigotravieso.com/variables-php/</guid><pubDate>Sat, 15 Oct 2022 12:00:03 GMT</pubDate><content:encoded>&lt;p&gt;Las variables se utilizan para almacenar datos, como cadenas de texto, números, etc. Los valores de las variables pueden cambiar en el transcurso de un script. Aquí hay algunas cosas importantes que debe saber sobre las variables:&lt;/p&gt;
+&lt;p&gt;En PHP, no es necesario declarar una variable antes de agregarle un valor.
+PHP convierte automáticamente la variable al tipo de datos correcto, según su valor.
+Después de declarar una variable, se puede reutilizar en todo el código.
+El operador de asignación (=) utilizado para asignar valor a una variable.&lt;/p&gt;
+&lt;p&gt;En PHP, la variable se puede declarar como:$var_name = value;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Ejecuta este código&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;?php
+// Declaramos la variable
+$txt = &quot;¡Hola Traviesos!&quot;;
+$number = 10;
+ 
+// Displaying variables value
+echo $txt;  // Imprime: ¡Hola Traviesos!
+echo $number; // Imprime: 10
+?&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;En el ejemplo anterior, hemos creado dos variables en las que la primera se ha asignado con un valor de cadena y la segunda se ha asignado con un número.&lt;/p&gt;
+&lt;p&gt;Más tarde, hemos mostrado los valores de las variables en el navegador usando la declaración &lt;em&gt;&lt;strong&gt;echo&lt;/strong&gt;&lt;/em&gt; o &lt;em&gt;&lt;strong&gt;print&lt;/strong&gt;&lt;/em&gt;. Esta declaración de PHP se usa a menudo para enviar datos al navegador. Hablaremos sobre ello en el próximo post.&lt;/p&gt;
+&lt;h2&gt;Convenciones de nomenclatura para variables de PHP&lt;/h2&gt;
+&lt;p&gt;Estas son las siguientes reglas para nombrar una variable de PHP:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Todas las variables en PHP comienzan con un $signo, seguido del nombre de la variable.&lt;/li&gt;
+&lt;li&gt;Un nombre de variable debe comenzar con una letra o el carácter de subrayado _.&lt;/li&gt;
+&lt;li&gt;Un nombre de variable no puede comenzar con un número.&lt;/li&gt;
+&lt;li&gt;Un nombre de variable en PHP solo puede contener caracteres alfanuméricos y guiones bajos ( A-z, 0-9y _).&lt;/li&gt;
+&lt;li&gt;Un nombre de variable no puede contener espacios.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[¿Qué es el PHP?]]></title><description><![CDATA[PHP comenzó como un pequeño proyecto de código abierto que evolucionó a medida que más y más personas descubrieron lo útil que era. Rasmus…]]></description><link>https://elcodigotravieso.com/que-es-php/</link><guid isPermaLink="false">https://elcodigotravieso.com/que-es-php/</guid><pubDate>Fri, 14 Oct 2022 12:00:03 GMT</pubDate><content:encoded>&lt;p&gt;PHP comenzó como un pequeño proyecto de código abierto que evolucionó a medida que más y más personas descubrieron lo útil que era. Rasmus Lerdorf lanzó la primera versión de PHP allá por 1994.&lt;/p&gt;
+&lt;p&gt;PHP es un acrónimo recursivo de “PHP: preprocesador de hipertexto”.&lt;/p&gt;
+&lt;p&gt;PHP es un lenguaje de secuencias de comandos del lado del servidor que está incrustado en HTML. Se utiliza para administrar contenido dinámico, bases de datos, seguimiento de sesiones e incluso crear sitios de comercio electrónico completos.&lt;/p&gt;
+&lt;p&gt;Está integrado con varias bases de datos populares, incluidas MySQL, PostgreSQL, Oracle, Sybase, Informix y Microsoft SQL Server.&lt;/p&gt;
+&lt;p&gt;PHP es agradablemente ágil en su ejecución, especialmente cuando se compila como un módulo de Apache en el lado de Unix. El servidor MySQL, una vez iniciado, ejecuta incluso consultas muy complejas con enormes conjuntos de resultados en un tiempo récord.&lt;/p&gt;
+&lt;p&gt;PHP admite una gran cantidad de protocolos importantes, como POP3, IMAP y LDAP. PHP4 agregó soporte para Java y arquitecturas de objetos distribuidos (COM y CORBA), haciendo posible el desarrollo de n niveles por primera vez.&lt;/p&gt;
+&lt;p&gt;PHP es indulgente: el lenguaje PHP intenta ser lo más indulgente posible.&lt;/p&gt;
+&lt;p&gt;La sintaxis de PHP es similar a C.&lt;/p&gt;
+&lt;h2&gt;Usos comunes de PHP&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PHP realiza funciones de sistema, es decir, a partir de archivos en un sistema puede crearlos, abrirlos, leerlos, escribirlos y cerrarlos.&lt;/li&gt;
+&lt;li&gt;PHP puede manejar formularios, es decir, recopilar datos de archivos, guardar datos en un archivo, a través de correo electrónico puede enviar datos, devolver datos al usuario.&lt;/li&gt;
+&lt;li&gt;Agrega, elimina y modifica elementos dentro de su base de datos a través de PHP.&lt;/li&gt;
+&lt;li&gt;Acceder a las variables de las cookies y configurar las cookies.&lt;/li&gt;
+&lt;li&gt;Usando PHP, puede restringir el acceso de los usuarios a algunas páginas de su sitio web.&lt;/li&gt;
+&lt;li&gt;Puede cifrar datos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Características de PHP&lt;/h2&gt;
+&lt;p&gt;Cinco características importantes hacen posible la naturaleza práctica de PHP:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sencillez&lt;/li&gt;
+&lt;li&gt;Eficiencia&lt;/li&gt;
+&lt;li&gt;Seguridad&lt;/li&gt;
+&lt;li&gt;Flexibilidad&lt;/li&gt;
+&lt;li&gt;Familiaridad&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Hola Mundo en PHP&lt;/h2&gt;
+&lt;p&gt;Para familiarizarse con PHP, primero comience con scripts PHP simples.&lt;/p&gt;
+&lt;p&gt;Como se mencionó anteriormente, PHP está incrustado en HTML. Eso significa que entre su HTML normal (o XHTML si está a la vanguardia) tendrá declaraciones de PHP como esta:&lt;/p&gt;
+&lt;p&gt;Ejemplo&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;html&gt;
+   
+   &amp;lt;head&gt;
+      &amp;lt;title&gt;Hello World&amp;lt;/title&gt;
+   &amp;lt;/head&gt;
+   
+   &amp;lt;body&gt;
+      &amp;lt;?php echo &quot;Hello, World!&quot;;?&gt;
+   &amp;lt;/body&gt;
+
+&amp;lt;/html&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Producirá el siguiente resultado:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Hello, World!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Si examina la salida HTML del ejemplo anterior, notará que el código PHP no está presente en el archivo enviado desde el servidor a su navegador web. Todo el PHP presente en la página web se procesa y se elimina de la página; lo único que se devuelve al cliente desde el servidor web es una salida HTML pura.&lt;/p&gt;
+&lt;p&gt;Todo el código PHP debe incluirse dentro de una de las tres etiquetas de marcado especiales que ATE reconoce PHP Parser.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;?php código aquí ?&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;? código aquí ?&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;En el próximo post, hablaremos sobre las variables en PHP.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Bienvenidxs a "El Código Travieso"]]></title><description><![CDATA[Bievenidxs a “El Código Travieso”, un espacio donde aprender y disfrutar del mundo del desarrollo de páginas web. Soy Borja Jiménez, y seré…]]></description><link>https://elcodigotravieso.com/bienvenidxs-a-el-codigo-travieso/</link><guid isPermaLink="false">https://elcodigotravieso.com/bienvenidxs-a-el-codigo-travieso/</guid><pubDate>Sun, 09 Oct 2022 13:05:03 GMT</pubDate><content:encoded>&lt;p&gt;Bievenidxs a &lt;strong&gt;“El Código Travieso”&lt;/strong&gt;, un espacio donde aprender y disfrutar del mundo del desarrollo de páginas web.&lt;/p&gt;
 &lt;p&gt;Soy Borja Jiménez, y seré la persona que te guiará en tu proceso de apredizaje e iniciación.&lt;/p&gt;
 &lt;p&gt;He creado este blog usando la última tecnología en cuanto a desarrollo web, concretamente &lt;a href=&quot;https://gatsbyjs.com&quot;&gt;GatsbyJS&lt;/a&gt;. Desde aquí mi enhorabuena al equipo ya que están haciendo una gran labor.&lt;/p&gt;
 &lt;p&gt;En el próximo post, haré una entendible introducción al desarrollo web.&lt;/p&gt;</content:encoded></item></channel></rss>
